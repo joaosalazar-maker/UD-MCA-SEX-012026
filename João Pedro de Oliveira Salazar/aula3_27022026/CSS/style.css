@@ -1,0 +1,50 @@
+/* Configurações gerais da página */
+body {
+    background-color: #f4f4f4; /* Cor de fundo na página */
+    font-family: Arial, Verdana, sans-serif; /* Fonte personalizada */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho (Header/h1) */
+h1 {
+    background-color: #003366; /* Cor diferente para o header */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento com padding */
+    text-align: center; /* Alinhamento centralizado */
+    border-radius: 8px;
+}
+
+/* Estilo para as seções */
+section {
+    background-color: white;
+    margin-top: 20px; /* Espaçamento com margin */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Espaçamento entre os itens da lista que você solicitou */
+li {
+    margin-bottom: 20px; /* Espaçamento maior entre os tópicos */
+}
+
+/* Alterar cor dos links */
+a {
+    color: rgb(1, 3, 110); /* Cor personalizada para links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilo para a imagem */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%; /* Deixa a foto redonda */
+    border: 3px solid #003366;
+}
